@@ -8,6 +8,7 @@ import java.util.List;
  * Created by 文谦 on 2018/9/23
  */
 public interface BookDao {
+	// 测试
     void saveBook(Book book);
     List<Book> findAllBook();
 }
